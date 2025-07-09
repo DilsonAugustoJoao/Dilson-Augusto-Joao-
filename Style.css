@@ -1,0 +1,347 @@
+body{
+    padding: 0px;
+    width: 1500px;
+}
+#container{
+    background-size: cover;
+    padding: 0px;
+}
+#header{
+    width: 1350px;
+    height: 80px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0px;
+    
+}
+#navegacao{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 30px;
+  
+}
+#navegacao1{
+    width: 80px;
+    height: 30px;
+    padding: 1px 1px 5px;
+    margin-left: 630px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(4, 4, 246);
+   
+   
+}
+#navi{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: end;
+   
+}
+#navi1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+nav{
+    background-color: rgb(33, 33, 159);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1350px;
+    padding: 10px;
+    background-size: cover;
+    margin: 0px;
+    margin-top: 0px;
+
+
+}
+nav li{
+    display: inline-block;
+
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+}
+nav li a:hover{
+    background-color: darkorange;
+}
+.dropdow-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+.dropdow-menu a{
+display: block;
+color: rgb(0, 0, 0);
+}
+#menu2{
+    border: solid;
+    border-radius: 5px;
+
+}
+.dropdow:hover .dropdow-menu{
+    display: block;
+}
+#pesquisar{
+    width: 450px;
+    height: 28px;
+    border: solid;
+    border-radius: 8px;
+    border-color: aliceblue;
+    font-size: 19px;
+    margin-top: 19px;
+    background: url(imagens/black.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: right;
+    padding: 8px;
+    background-color: #fff;
+   
+   
+}
+#buscar{
+    width: 75px;
+    height: 28px;
+    background-color: rgba(0, 0, 0, 0.512);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 19px;
+}
+#caixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 140px;
+   
+    
+}
+
+#foto{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-color: blue;
+    border-radius: 300px;
+}
+#texto{
+    width: 950px;
+    height: 300px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    padding: 20px;
+    
+}
+#caixa1{
+    border: solid;
+    border-color: royalblue;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1100px;
+    padding:  40px;
+    display: block;
+    justify-content: center;
+    margin: 30px;
+    margin-left: 120px;
+    background-color: darkorange;
+
+}
+#caixa2{
+    padding: 10px;
+    margin-left: 15px;
+}
+
+footer img{
+    width: 50px;
+    height: 50px ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 0px;
+}
+footer a{
+    margin: 40px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
+#roda{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+footer a:hover{
+    color: blue;
+}
+#mim{
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 27px;
+    width: 1300px;
+    height: 480px;
+    margin: 10px;
+    margin-left: 10px;
+}
+#dmm{
+    width: 450px;
+    height: 400px;
+    border: solid;
+    border-color: #950202;
+    border-bottom-width: 10px ;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+#linha{
+    color: #000000;
+}
+#color{
+    color: blue;
+}
+#event{
+    width: 1300px;
+    height: 650px;
+    padding: 15px;
+    border: solid;
+    border-radius: 5px;
+    border-bottom-width: 20px;
+    border-color: hotpink;
+}
+#cria{
+    width: 1300px;
+    font-size: 30px;
+}
+#sobre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(43, 97, 2);
+    text-align: center;
+    text-decoration: underline;
+}
+.emai{
+    color: blue;
+}
+#emai1{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+#emai2{
+    width: 1300px;
+    height: 320px;
+    background-color: aqua;
+    border: none;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 32px;
+    font-style: normal;
+    padding: 6px 6px 20px;
+    margin: 20px;
+    margin-left: 30px;
+    justify-content: center;
+    display: flex;
+}
+#alfrinda{
+    font-size:32px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000403;
+    margin: 20px;
+    padding: 10px;
+    width: 1300px;
+}
+#alf{
+    font-size: 50px;
+    color: #950202;
+    text-align: center;
+}
+#mai{
+    width: 1300px;
+    padding: 10px;
+    margin: 30px;
+    border: solid;
+    border-color: #950202;
+    border-radius: 9px;
+    border-style: groove;
+
+}
+#prim{
+    width: 1300px;
+}
+#segun{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 16px;
+
+}
+#filhot{
+    width: 900px;
+    height: 500px;
+}
+#family2{
+    width: 900px;
+    height: 500px;
+}
+#textou{
+    font-size: 40px;
+}
+#terce{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 10px;
+    padding: 16px;
+}
+#maezinha{
+    width: 1200px;
+    height: 700px;
+    border-radius: 20px;
+}
+#prof{
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    width: 1300px;
+}
+/* 2 - Comentarios com css */
+/* 3 id */
